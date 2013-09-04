@@ -2,6 +2,12 @@
 
 Generates a function to produce FormData objects based on a given HTML form.
 
+## Try it
+
+You can try this in your browser at  [try it.html]
+(http://matthewkastor.github.io/atropa-formdata-generator/try%20it.html)
+
+
 ## Where do I get it?
 
 You can download it from github at 
@@ -42,7 +48,3 @@ console.log(takesOptions);
 
 Documentation is in the [docs/jsdoc](http://matthewkastor.github.io/atropa-formdata-generator/docs/jsdoc/symbols/_global_.html) folder.
 Visual Studio intellisense files are in [docs/vsdocs](https://github.com/matthewkastor/atropa-formdata-generator/blob/gh-pages/docs/vsdoc/OpenLayersAll.js)
-
-## Tests
-
-Run the tests in your browser by opening [atropa-formdata-generator tester.html](http://matthewkastor.github.io/atropa-formdata-generator/atropa-formdata-generator%20tester.html).
