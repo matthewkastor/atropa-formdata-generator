@@ -9,7 +9,7 @@
         /// <summary></summary>
         /// <returns type="_global_"/>
                 
-        atropaFormdataGenerator: function(form, funcName, useOptionsObj, tab, eol) {
+        formdataGenerator: function(form, funcName, useOptionsObj, tab, eol) {
             /// <summary>A function generator that takes an HTML form and writes an equivalent
             ///  function which will produce a formData object. The function can be generated
             ///  to accept multiple parameters or a single options object.</summary>
@@ -26,13 +26,6 @@
             /// <returns type="String">Returns a JavaScript function as a string. This function
             ///  will accept parameters representing the data which would be entered into the
             ///  form elements, and will return a FormData object.</returns>
-        }, 
-        
-        forEveryForm: function(callback, docRef) {
-            /// <summary>Cycles through every form on the page and allows you to perform an action.</summary>
-            /// <param name="callback" type="Function">The action you would like to take on each form.</param>
-            /// <param name="docRef" type="HTMLDomDocument">Optional. A reference to the document you
-            ///  need to manipulate. Defaults to &lt;code&gt;document&lt;/code&gt;</param>
         }
         
     };

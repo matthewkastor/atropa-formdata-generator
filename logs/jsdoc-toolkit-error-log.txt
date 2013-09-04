@@ -1,0 +1,21 @@
+ > JsDoc Toolkit main() running at Wed Sep 04 2013 01:52:47 GMT-0400 (EDT).
+ > With options: 
+ >     d: C:\Users\kastor\Documents\GitHub\atropa-formdata-generator\src\..\docs\jsdoc
+ >     o: C:\Users\kastor\Documents\GitHub\atropa-formdata-generator\src\..\logs\jsdoc-toolkit-error-log.txt
+ >     p: true
+ >     r: 10
+ >     t: C:\Users\kastor\Documents\applications\javascript related\tools\jsdoc_toolkit-2.4.0\templates\jsdoc\
+ >     _: C:\Users\kastor\Documents\GitHub\atropa-formdata-generator\src
+ >     a: true
+ > Output directory set to 'C:\Users\kastor\Documents\GitHub\atropa-formdata-generator\src\..\docs\jsdoc/'.
+ > JsDoc Toolkit main() running at Wed Sep 04 2013 01:52:49 GMT-0400 (EDT).
+ > With options: 
+ >     d: C:\Users\kastor\Documents\GitHub\atropa-formdata-generator\src\..\docs\vsdoc
+ >     o: C:\Users\kastor\Documents\GitHub\atropa-formdata-generator\src\..\logs\jsdoc-toolkit-error-log.txt
+ >     p: true
+ >     r: 10
+ >     t: C:\Users\kastor\Documents\applications\javascript related\tools\jsdoc_toolkit-2.4.0\templates\vsdoc\
+ >     _: C:\Users\kastor\Documents\GitHub\atropa-formdata-generator\src
+ >     a: true
+ > Output directory set to 'C:\Users\kastor\Documents\GitHub\atropa-formdata-generator\src\..\docs\vsdoc/'.
+ > Saving file for symbol _global_
