@@ -1,6 +1,6 @@
 {
   "name": "atropa-formdata-generator",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "main": "./src/atropa-formdata-generator.js",
   "description": "Generates a function to produce FormData objects based on a given HTML form.",
   "keywords": [
@@ -21,8 +21,5 @@
     "node": ">=0.8.14"
   },
   "license": "gpl-3.0",
-  "readmeFilename": "README.md",
-  "directories": {
-    "test": "tests"
-  }
+  "readmeFilename": "README.md"
 }
