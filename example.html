@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <script src="./src/atropa-formdata-generator.js"
+              type="text/javascript">
+</script>
+        <script type="text/javascript">
+
+            function btn_action () {
+                var els = {};
+                var ids = [
+                    'testForm',
+                    'resultDisplay1',
+                    'resultDisplay2'
+                ];
+                ids.forEach(function (name) {
+                    els[name] = document.getElementById(name);
+                });
+                els.resultDisplay1.textContent = formdataGenerator(
+                    els.testForm,
+                    'myFormDataFunction',
+                    true
+                );
+                els.resultDisplay2.textContent = formdataGenerator(
+                    els.testForm,
+                    'myFormDataFunction'
+                );
+            }
+        </script>
+        <title>
+            Example Usage of atropa-formdata-generator.js
+        </title>
+    </head>
+    <body>
+        <h1>
+            Example Usage of atropa-formdata-generator.js
+        </h1>
+
+        <form id="testForm"
+              action="fakeFormSubmission.php"
+              method="post"
+              name="testForm">
+            <p>
+                Length: <input type="text"
+                   id="length"
+                   name="length">
+                <br>
+                Units: <input type="text"
+                   id="units"
+                   name="length[units]">
+                <br>
+                Padding: <input type="text"
+                   id="padding"
+                   name="padding">
+                <br>
+                Rounding: <input type="checkbox"
+                   id="rounding"
+                   name="rounding">
+                <br>
+                File: <input type="file"
+                   id="aFile"
+                   name="aFile">
+            </p>
+        </form>
+
+        <h2>
+            Results
+        </h2>
+
+        <p>
+            <button onclick="btn_action();">Regenerate</button>
+        </p>
+
+        <h3>
+            With Configuration Option
+        </h3>
+
+        <pre id="resultDisplay1">
+        
+</pre>
+        <h3>
+            Without Configuration Option
+        </h3>
+
+        <pre id="resultDisplay2">
+        
+</pre>
+    </body>
+</html>

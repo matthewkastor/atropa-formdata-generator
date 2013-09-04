@@ -1,0 +1,28 @@
+{
+  "name": "atropa-formdata-generator",
+  "version": "0.0.0",
+  "main": "./src/atropa-formdata-generator.js",
+  "description": "Generates a function to produce FormData objects based on a given HTML form.",
+  "keywords": [
+    "atropa",
+    "html",
+    "html forms",
+    "formdata",
+    "code generator"
+  ],
+  "homepage": "https://github.com/matthewkastor/atropa-formdata-generator/",
+  "bugs": "https://github.com/matthewkastor/atropa-formdata-generator/issues",
+  "author": "Matthew Kastor <matthewkastor@gmail.com> (https://plus.google.com/100898583798552211130)",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/matthewkastor/atropa-formdata-generator.git"
+  },
+  "engines": {
+    "node": ">=0.8.14"
+  },
+  "license": "gpl-3.0",
+  "readmeFilename": "README.md",
+  "directories": {
+    "test": "tests"
+  }
+}
