@@ -1,6 +1,6 @@
 {
   "name": "atropa-formdata-generator",
-  "version": "0.1.0",
+  "version": "2022.11.16",
   "main": "./src/atropa-formdata-generator.js",
   "description": "Generates a function to produce FormData objects based on a given HTML form.",
   "keywords": [
