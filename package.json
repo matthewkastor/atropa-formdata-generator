@@ -20,6 +20,6 @@
   "engines": {
     "node": ">=0.8.14"
   },
-  "license": "gpl-3.0",
+  "license": "GPL-3.0",
   "readmeFilename": "README.md"
 }
